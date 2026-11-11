@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuela Góis | Desenvolvedora</title>
+  <meta name="description" content="Portfólio de Manuela Góis — estudante de ADS na FIAP, desenvolvedora Android (Kotlin) e Java/Spring Boot, com experiência em análise de dados.">
+  <meta name="theme-color" content="#0b0d12">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ========== MENU ========== -->
+  <header class="nav" id="topo">
+    <div class="container nav-inner">
+      <a href="#inicio" class="logo">&lt;MG /&gt;</a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#curriculo">Currículo</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ========== INÍCIO (HERO) ========== -->
+    <section class="hero container" id="inicio">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Olá, eu sou</p>
+        <h1>Manuela Góis</h1>
+        <h2 class="role">Desenvolvedora de Software <span class="accent">Júnior</span></h2>
+        <ul class="tags">
+          <li>Kotlin</li><li>Jetpack Compose</li><li>Java</li><li>Spring Boot</li><li>Oracle PL/SQL</li><li>Docker</li>
+        </ul>
+        <p class="intro">
+          Estudante de Análise e Desenvolvimento de Sistemas na FIAP, vinda do Direito e da gestão pública,
+          onde trabalho com análise de dados. Hoje construo apps Android e APIs em Java, e
+          tenho foco em Engenharia de Dados.
+        </p>
+        <div class="cta">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <!-- Coloque seu currículo em PDF na pasta assets com o nome curriculo.pdf -->
+          <a href="assets/curriculo.pdf" class="btn btn-ghost" download>Baixar currículo</a>
+        </div>
+        <div class="social">
+          <a href="https://github.com/manucgois" target="_blank" rel="noopener">GitHub</a>
+          <!-- TROQUE pelo link do seu LinkedIn -->
+          <a href="https://www.linkedin.com/in/SEU-USUARIO" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <!-- Coloque sua foto na pasta assets com o nome foto.jpg -->
+        <img src="assets/foto.jpg" alt="Foto de Manuela Góis" onerror="this.remove()">
+        <span class="photo-fallback" aria-hidden="true">MG</span>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section class="section container" id="sobre">
+      <h2 class="section-title reveal"><span class="num">01.</span> Sobre mim</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Sou formada em Direito e, desde 2021, atuo como Gerente de Gestão e Segurança Institucional
+            na Prefeitura de Itabirito (MG). No dia a dia, analiso dados para entender problemas,
+            identificar padrões e propor soluções — foi isso que me levou para a tecnologia.
+          </p>
+          <p>
+            Hoje curso <strong>Análise e Desenvolvimento de Sistemas na FIAP</strong>, onde desenvolvo
+            apps nativos Android com Kotlin e Jetpack Compose, APIs REST com Java e Spring Boot e
+            automações de banco de dados com Oracle PL/SQL.
+          </p>
+          <p>
+            Busco minha primeira oportunidade como <strong>Engenheira de Software</strong> ou
+            <strong>Desenvolvedora Full Stack Júnior</strong>, e tenho grande interesse em
+            <strong>Engenharia de Dados</strong>.
+          </p>
+        </div>
+        <ul class="about-facts reveal">
+          <li><span>🎓</span><div><strong>Formação</strong><p>ADS — FIAP (previsão ago/2027)<br>Bacharel em Direito</p></div></li>
+          <li><span>📍</span><div><strong>Localização</strong><p>Itabirito, MG — aberta a remoto</p></div></li>
+          <li><span>🎯</span><div><strong>Objetivo</strong><p>Engenharia de Software / Full Stack Júnior</p></div></li>
+          <li><span>📊</span><div><strong>Interesse</strong><p>Engenharia e análise de dados</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== PROJETOS ========== -->
+    <section class="section container" id="projetos">
+      <h2 class="section-title reveal"><span class="num">02.</span> Projetos</h2>
+
+      <!-- Projeto em destaque -->
+      <article class="featured reveal">
+        <div class="featured-img">
+          <!-- Coloque um print em assets/carboniq.png -->
+          <img src="assets/carboniq.png" alt="Telas do app CarbonIQ" onerror="this.remove()">
+          <span class="img-fallback">CarbonIQ</span>
+        </div>
+        <div class="featured-body">
+          <p class="eyebrow">Projeto em destaque · Android</p>
+          <h3>CarbonIQ — Simulador de impacto ambiental</h3>
+          <p>
+            MVP de app nativo Android ligado ao pilar Ambiental do ESG. O usuário simula o impacto
+            de suas atividades, salva o histórico e acompanha o total na tela inicial, que também
+            mostra a qualidade do ar em tempo real.
+          </p>
+          <ul class="feature-list">
+            <li>5 telas: Home, Nova Simulação, Resultado, Histórico e Dicas</li>
+            <li>Persistência local com Room e arquitetura com ViewModel</li>
+            <li>Integração com a API pública Open-Meteo Air Quality via Retrofit</li>
+            <li>APK de release assinado</li>
+          </ul>
+          <ul class="tags small">
+            <li>Kotlin</li><li>Jetpack Compose</li><li>Room</li><li>Retrofit</li><li>MVVM</li>
+          </ul>
+          <div class="links">
+            <!-- TROQUE pelo link do repositório -->
+            <a href="https://github.com/manucgois" target="_blank" rel="noopener">Código →</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="cards">
+        <article class="card reveal">
+          <p class="eyebrow">Android · Challenge FIAP + LetsSign</p>
+          <h3>Ratifica — Assinatura digital</h3>
+          <p>
+            App mobile em grupo para geração de documentos e assinatura digital, desenvolvido no
+            desafio real com a empresa LetsSign. Inclui perfil de assinatura reutilizável criado no
+            primeiro acesso.
+          </p>
+          <ul class="tags small"><li>Kotlin</li><li>Compose</li><li>Hilt</li></ul>
+          <div class="links"><a href="https://github.com/manucgois" target="_blank" rel="noopener">Código →</a></div>
+        </article>
+
+        <article class="card reveal">
+          <p class="eyebrow">Back-end · API REST</p>
+          <h3>CarbonIQ Energia — API</h3>
+          <p>
+            API RESTful para monitorar consumo de energia, com autenticação JWT, migrações de banco
+            versionadas e aplicação em contêiner.
+          </p>
+          <ul class="tags small"><li>Java</li><li>Spring Boot</li><li>Spring Security</li><li>Oracle</li><li>Flyway</li><li>Docker</li></ul>
+          <div class="links"><a href="https://github.com/manucgois" target="_blank" rel="noopener">Código →</a></div>
+        </article>
+
+        <article class="card reveal">
+          <p class="eyebrow">Banco de dados</p>
+          <h3>CarbonIQ Energia — PL/SQL</h3>
+          <p>
+            Modelagem (MER) e automações em Oracle PL/SQL com triggers para o tema
+            “Eficiência energética e sustentabilidade”.
+          </p>
+          <ul class="tags small"><li>Oracle</li><li>PL/SQL</li><li>Triggers</li><li>Modelagem</li></ul>
+          <div class="links"><a href="https://github.com/manucgois" target="_blank" rel="noopener">Código →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== CURRÍCULO ========== -->
+    <section class="section container" id="curriculo">
+      <h2 class="section-title reveal"><span class="num">03.</span> Currículo</h2>
+
+      <div class="cv-grid">
+        <div>
+          <h3 class="cv-heading reveal">Experiência</h3>
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <p class="period">abr/2021 — atual</p>
+              <h4>Gerente de Gestão e Segurança Institucional</h4>
+              <p class="org">Prefeitura Municipal de Itabirito (MG)</p>
+              <ul>
+                <li>Análise de dados para entender problemas, identificar padrões e embasar decisões da gestão.</li>
+                <li>Elaboração do Plano de Segurança Pública e Prevenção à Criminalidade do município.</li>
+                <li>Mapeamento de serviços da Secretaria para a Carta de Serviços do Município.</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 class="cv-heading reveal">Formação</h3>
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <p class="period">em andamento — previsão ago/2027</p>
+              <h4>Tecnólogo em Análise e Desenvolvimento de Sistemas</h4>
+              <p class="org">FIAP (online)</p>
+            </div>
+            <div class="timeline-item reveal">
+              <p class="period"><!-- ano de conclusão --></p>
+              <h4>Bacharelado em Direito</h4>
+              <p class="org"><!-- nome da instituição --></p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="cv-heading reveal">Habilidades</h3>
+          <div class="skills reveal">
+            <div class="skill-group">
+              <h4>Mobile</h4>
+              <ul class="tags small"><li>Kotlin</li><li>Jetpack Compose</li><li>Room</li><li>Retrofit</li><li>Hilt</li></ul>
+            </div>
+            <div class="skill-group">
+              <h4>Back-end</h4>
+              <ul class="tags small"><li>Java</li><li>Spring Boot</li><li>Spring Data JPA</li><li>Spring Security / JWT</li></ul>
+            </div>
+            <div class="skill-group">
+              <h4>Dados</h4>
+              <ul class="tags small"><li>Oracle</li><li>SQL</li><li>PL/SQL</li><li>Power BI</li><li>Análise de dados</li></ul>
+            </div>
+            <div class="skill-group">
+              <h4>Ferramentas</h4>
+              <ul class="tags small"><li>Git / GitHub</li><li>Docker</li><li>Flyway</li><li>Insomnia</li><li>Android Studio</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section class="section container contact" id="contato">
+      <h2 class="section-title center reveal"><span class="num">04.</span> Contato</h2>
+      <p class="contact-text reveal">
+        Estou aberta a oportunidades de estágio e vagas júnior. Vamos conversar?
+      </p>
+      <div class="contact-links reveal">
+        <a class="btn btn-primary" href="mailto:manuelagoisdev@gmail.com">E-mail</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/SEU-USUARIO" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/manucgois" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="ano"></span> Manuela Góis. Feito com HTML, CSS e JavaScript.</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
